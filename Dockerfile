@@ -1,6 +1,7 @@
 
-# Install basic tools + socat (for Walmart skill)
-RUN apt-get update && apt-get install -y curl socat && rm -rf /var/lib/apt/lists/*
+# Install basic tools + socat + chromium (for Browser tool)
+RUN apt-get update && apt-get install -y curl socat chromium && rm -rf /var/lib/apt/lists/*
+
 
 # Install Bun (required for build scripts)
 RUN curl -fsSL https://bun.sh/install | bash
