@@ -1,3 +1,4 @@
+FROM node:22-bookworm
 
 # Install basic tools + socat + chromium (for Browser tool)
 RUN apt-get update && apt-get install -y curl socat chromium && rm -rf /var/lib/apt/lists/*
