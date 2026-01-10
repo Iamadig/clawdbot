@@ -36,22 +36,17 @@ RUN pnpm ui:build
 
 # [Custom Binaries]
 # GOG
-RUN curl -L https://github.com/steipete/gog/releases/latest/download/gog_Linux_x86_64.tar.gz -o /tmp/gog.tar.gz && \
+RUN curl -L https://github.com/steipete/gogcli/releases/download/v0.5.4/gogcli_0.5.4_linux_amd64.tar.gz -o /tmp/gog.tar.gz && \
     tar -xzf /tmp/gog.tar.gz -C /usr/local/bin && \
+    mv /usr/local/bin/gogcli /usr/local/bin/gog && \
     chmod +x /usr/local/bin/gog && \
     rm /tmp/gog.tar.gz
 
 # GOPLACES
-RUN curl -L https://github.com/steipete/goplaces/releases/latest/download/goplaces_Linux_x86_64.tar.gz -o /tmp/goplaces.tar.gz && \
+RUN curl -L https://github.com/steipete/goplaces/releases/download/v0.2.0/goplaces_0.2.0_linux_amd64.tar.gz -o /tmp/goplaces.tar.gz && \
     tar -xzf /tmp/goplaces.tar.gz -C /usr/local/bin && \
     chmod +x /usr/local/bin/goplaces && \
     rm /tmp/goplaces.tar.gz
-
-# WACLI
-RUN curl -L https://github.com/steipete/wacli/releases/latest/download/wacli_Linux_x86_64.tar.gz -o /tmp/wacli.tar.gz && \
-    tar -xzf /tmp/wacli.tar.gz -C /usr/local/bin && \
-    chmod +x /usr/local/bin/wacli && \
-    rm /tmp/wacli.tar.gz
 
 ENV NODE_ENV=production
 
