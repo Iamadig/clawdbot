@@ -15,11 +15,4 @@ export const WhatsAppToolSchema = Type.Union([
       fromMe: Type.Optional(Type.Boolean()),
     },
   }),
-  Type.Object({
-    action: Type.Literal("send"),
-    to: Type.String({ description: "The recipient JID (E.164 or group JID)" }),
-    text: Type.Optional(Type.String({ description: "Message body" })),
-    media: Type.Optional(Type.String({ description: "Path to media file to attach" })),
-    accountId: Type.Optional(Type.String()),
-  }),
 ]);

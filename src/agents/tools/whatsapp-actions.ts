@@ -1,7 +1,7 @@
 import type { AgentToolResult } from "@mariozechner/pi-agent-core";
 
 import type { ClawdbotConfig } from "../../config/config.js";
-import { sendMessageWhatsApp, sendReactionWhatsApp } from "../../web/outbound.js";
+import { sendReactionWhatsApp } from "../../web/outbound.js";
 import { createActionGate, jsonResult, readReactionParams, readStringParam } from "./common.js";
 
 export async function handleWhatsAppAction(
@@ -10,25 +10,6 @@ export async function handleWhatsAppAction(
 ): Promise<AgentToolResult<unknown>> {
   const action = readStringParam(params, "action", { required: true });
   const isActionEnabled = createActionGate(cfg.channels?.whatsapp?.actions);
-
-  if (action === "send") {
-    const to = readStringParam(params, "to", { required: true });
-    const text = readStringParam(params, "text");
-    const media = readStringParam(params, "media");
-    const accountId = readStringParam(params, "accountId");
-
-    if (!text && !media) {
-      throw new Error("Must provide either 'text' or 'media'.");
-    }
-
-    await sendMessageWhatsApp(to, text || "", {
-      verbose: false,
-      mediaUrl: media || undefined,
-      accountId: accountId || undefined
-    });
-
-    return jsonResult({ ok: true, sentTo: to });
-  }
 
   if (action === "react") {
     if (!isActionEnabled("reactions")) {

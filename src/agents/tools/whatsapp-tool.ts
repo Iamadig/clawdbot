@@ -7,7 +7,7 @@ export function createWhatsAppTool(): AnyAgentTool {
   return {
     label: "WhatsApp",
     name: "whatsapp",
-    description: "Manage WhatsApp messages and reactions.",
+    description: "Manage WhatsApp reactions.",
     parameters: WhatsAppToolSchema,
     execute: async (_toolCallId, args) => {
       const params = args as Record<string, unknown>;
