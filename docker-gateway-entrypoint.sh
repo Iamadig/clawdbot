@@ -1,4 +1,7 @@
 #!/bin/bash
+# Remove Chrome lock file if it exists (fixes "profile in use" error)
+rm -f /home/node/.clawdbot/browser/clawd/user-data/SingletonLock
+
 # Start Chrome in background, then start the gateway
 /usr/bin/google-chrome-stable \
   --headless \
