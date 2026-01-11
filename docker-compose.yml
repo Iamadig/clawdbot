@@ -1,5 +1,6 @@
 services:
   clawdbot-gateway:
+    build: .
     image: ${CLAWDBOT_IMAGE:-clawdbot:local}
     environment:
       HOME: /home/node
@@ -9,6 +10,7 @@ services:
       CLAUDE_WEB_SESSION_KEY: ${CLAUDE_WEB_SESSION_KEY}
       CLAUDE_WEB_COOKIE: ${CLAUDE_WEB_COOKIE}
       NANO_BANANA_API_KEY: ${NANO_BANANA_API_KEY}
+      GEMINI_API_KEY: ${NANO_BANANA_API_KEY}
     volumes:
       - ${CLAWDBOT_CONFIG_DIR}:/home/node/.clawdbot
       - ${CLAWDBOT_WORKSPACE_DIR}:/home/node/clawd
@@ -17,11 +19,9 @@ services:
       - "${CLAWDBOT_BRIDGE_PORT:-18790}:18790"
     init: true
     restart: unless-stopped
+    entrypoint: ["/usr/local/bin/docker-gateway-entrypoint.sh"]
     command:
       [
-        "node",
-        "dist/index.js",
-        "gateway-daemon",
         "--bind",
         "${CLAWDBOT_GATEWAY_BIND:-lan}",
         "--port",
@@ -38,6 +38,7 @@ services:
       CLAUDE_WEB_SESSION_KEY: ${CLAUDE_WEB_SESSION_KEY}
       CLAUDE_WEB_COOKIE: ${CLAUDE_WEB_COOKIE}
       NANO_BANANA_API_KEY: ${NANO_BANANA_API_KEY}
+      GEMINI_API_KEY: ${NANO_BANANA_API_KEY}
     volumes:
       - ${CLAWDBOT_CONFIG_DIR}:/home/node/.clawdbot
       - ${CLAWDBOT_WORKSPACE_DIR}:/home/node/clawd

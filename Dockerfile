@@ -63,6 +63,11 @@ RUN curl -LsSf https://astral.sh/uv/install.sh | sh && \
 # Create global clawdbot command
 RUN echo '#!/bin/sh\nexec node /app/dist/index.js "$@"' > /usr/local/bin/clawdbot && \
     chmod +x /usr/local/bin/clawdbot
+
+# Copy gateway entrypoint script for browser auto-start
+COPY docker-gateway-entrypoint.sh /usr/local/bin/docker-gateway-entrypoint.sh
+RUN chmod +x /usr/local/bin/docker-gateway-entrypoint.sh
+
 ENV NODE_ENV=production
 
 CMD ["node", "dist/index.js"]
