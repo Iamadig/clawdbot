@@ -51,6 +51,10 @@ RUN curl -L https://github.com/steipete/goplaces/releases/download/v0.2.0/goplac
 RUN curl -LsSf https://astral.sh/uv/install.sh | sh && \
     mv /root/.local/bin/uv /usr/local/bin/uv
 
+# Create global clawdbot command
+RUN echo '#!/bin/sh\nexec node /app/dist/index.js "$@"' > /usr/local/bin/clawdbot && \
+    chmod +x /usr/local/bin/clawdbot
+
 ENV NODE_ENV=production
 
 CMD ["node", "dist/index.js"]
