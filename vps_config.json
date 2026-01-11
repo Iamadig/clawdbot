@@ -1,7 +1,7 @@
 {
     "browser": {
         "enabled": true,
-        "executablePath": "/usr/bin/google-chrome-stable",
+        "attachOnly": true,
         "headless": true,
         "noSandbox": true
     }
