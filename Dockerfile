@@ -38,7 +38,6 @@ RUN pnpm ui:build
 # GOG
 RUN curl -L https://github.com/steipete/gogcli/releases/download/v0.5.4/gogcli_0.5.4_linux_amd64.tar.gz -o /tmp/gog.tar.gz && \
     tar -xzf /tmp/gog.tar.gz -C /usr/local/bin && \
-    mv /usr/local/bin/gogcli /usr/local/bin/gog && \
     chmod +x /usr/local/bin/gog && \
     rm /tmp/gog.tar.gz
 
