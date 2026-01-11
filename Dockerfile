@@ -49,7 +49,7 @@ RUN curl -L https://github.com/steipete/goplaces/releases/download/v0.2.0/goplac
 
 # Install UV (Python Tool)
 RUN curl -LsSf https://astral.sh/uv/install.sh | sh && \
-    mv /root/.cargo/bin/uv /usr/local/bin/uv
+    mv /root/.local/bin/uv /usr/local/bin/uv
 
 ENV NODE_ENV=production
 
