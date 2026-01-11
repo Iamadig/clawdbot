@@ -1,7 +1,12 @@
 FROM node:22-bookworm
 
 # Install basic tools + socat + chromium (for Browser tool)
-RUN apt-get update && apt-get install -y curl socat chromium && rm -rf /var/lib/apt/lists/*
+# Install basic tools + socat + google-chrome-stable (for Browser tool)
+RUN apt-get update && apt-get install -y curl socat wget && \
+    wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && \
+    apt-get install -y ./google-chrome-stable_current_amd64.deb && \
+    rm google-chrome-stable_current_amd64.deb && \
+    rm -rf /var/lib/apt/lists/*
 
 
 # Install Bun (required for build scripts)
