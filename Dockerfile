@@ -3,6 +3,14 @@ FROM node:22-bookworm
 # Install basic tools + socat + chromium (for Browser tool)
 RUN apt-get update && apt-get install -y curl socat chromium && rm -rf /var/lib/apt/lists/*
 
+# Install Rust & QMD (for clawddocs) - Cached Layer
+RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y && \
+    . "$HOME/.cargo/env" && \
+    cargo install --git https://github.com/tobi/qmd && \
+    mv /root/.cargo/bin/qmd /usr/local/bin/qmd && \
+    rustup self uninstall -y
+
+
 
 # Install Bun (required for build scripts)
 RUN curl -fsSL https://bun.sh/install | bash
@@ -54,7 +62,6 @@ RUN curl -LsSf https://astral.sh/uv/install.sh | sh && \
 # Create global clawdbot command
 RUN echo '#!/bin/sh\nexec node /app/dist/index.js "$@"' > /usr/local/bin/clawdbot && \
     chmod +x /usr/local/bin/clawdbot
-
 ENV NODE_ENV=production
 
 CMD ["node", "dist/index.js"]
