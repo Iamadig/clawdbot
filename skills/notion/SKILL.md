@@ -13,18 +13,16 @@ Use the Notion API to create/read/update pages, data sources (databases), and bl
 
 1. Create an integration at https://notion.so/my-integrations
 2. Copy the API key (starts with `ntn_` or `secret_`)
-3. Store it:
-```bash
-mkdir -p ~/.config/notion
-echo "ntn_your_key_here" > ~/.config/notion/api_key
-```
+3. Store it in your environment:
+   - Add `NOTION_API_KEY=your_key_here` to to your `.env` file (e.g. `/root/clawdbot/.env`)
+   - Restart the service to load the new variable
 4. Share target pages/databases with your integration (click "..." → "Connect to" → your integration name)
 
 ## API Basics
 
 All requests need:
 ```bash
-NOTION_KEY=$(cat ~/.config/notion/api_key)
+NOTION_KEY=${NOTION_API_KEY}
 curl -X GET "https://api.notion.com/v1/..." \
   -H "Authorization: Bearer $NOTION_KEY" \
   -H "Notion-Version: 2025-09-03" \
