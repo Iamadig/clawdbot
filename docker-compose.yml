@@ -16,6 +16,7 @@ services:
     volumes:
       - ${CLAWDBOT_CONFIG_DIR}:/home/node/.clawdbot
       - ${CLAWDBOT_WORKSPACE_DIR}:/home/node/clawd
+      - ${CLAWDBOT_WORKSPACE_DIR}/gog_config:/home/node/.gog
     ports:
       - "${CLAWDBOT_GATEWAY_PORT:-18789}:18789"
       - "${CLAWDBOT_BRIDGE_PORT:-18790}:18790"
@@ -46,6 +47,7 @@ services:
     volumes:
       - ${CLAWDBOT_CONFIG_DIR}:/home/node/.clawdbot
       - ${CLAWDBOT_WORKSPACE_DIR}:/home/node/clawd
+      - ${CLAWDBOT_WORKSPACE_DIR}/gog_config:/home/node/.gog
     stdin_open: true
     tty: true
     init: true
