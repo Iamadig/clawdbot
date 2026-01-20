@@ -16,4 +16,4 @@ rm -f /home/node/.clawdbot/browser/clawd/user-data/SingletonLock
 sleep 2
 
 # Start the gateway
-exec node dist/index.js gateway-daemon "$@"
+exec node dist/index.js gateway "$@"
