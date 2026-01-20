@@ -1,0 +1,13 @@
+{
+    "skills": {
+        "entries": {
+            "walmart": {
+                "command": "/usr/bin/socat",
+                "args": [
+                    "STDIO",
+                    "TCP:100.82.193.16:9099"
+                ]
+            }
+        }
+    }
+}

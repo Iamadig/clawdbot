@@ -11,5 +11,17 @@
                 "requireMention": false
             }
         }
+    },
+    "agents": {
+        "defaults": {
+            "model": {
+                "primary": "ag-pro"
+            },
+            "models": {
+                "google-antigravity/gemini-3-pro-high": {
+                    "alias": "ag-pro"
+                }
+            }
+        }
     }
 }

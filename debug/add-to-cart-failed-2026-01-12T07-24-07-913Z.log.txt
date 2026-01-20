@@ -1,0 +1,52 @@
+url: https://www.walmart.ca/en/ip/Coca-Cola-Zero-Sugar-Fridge-Pack-Cans-355-mL-12-Pack/10216151?classType=REGULAR&athbdg=L3033&from=/search
+title: Coca-Cola Zero Sugar Fridge Pack Cans, 355 mL, 12 Pack, 12 x 355 mL - Walmart.ca
+
+console:
+[debug] Error
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+
+page errors:
+
+request failures:
+https://pagead2.googlesyndication.com/ccm/collect?frm=0&tid=DC-6835277&en=page_view&dl=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FCoca-Cola-Zero-Sugar-Fridge-Pack-Cans-355-mL-12-Pack%2F10216151&scrsrc=www.googletagmanager.com&rnd=556713730.1768202647&navt=n&npa=0&gtm=45fe6171v9177260377za200xec&gcs=G100&gcd=13u3u3l3l5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115616986~115938466~115938469~116514482~116988315&tft=1768202647355&tfd=2317&apve=1&apvf=f net::ERR_ABORTED

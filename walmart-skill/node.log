@@ -1,0 +1,3 @@
+Starting Walmart Skill Node on Port 9099...
+Ensure you have an SSH Tunnel or Tailscale connection from VPS to this port.
+./start_node.sh: line 25: 48085 Killed: 9               socat TCP-LISTEN:9099,fork,bind=0.0.0.0 EXEC:"npm start",pty,stderr

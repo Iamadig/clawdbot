@@ -1,0 +1,24 @@
+0 verbose cli /Users/adi/.nvm/versions/node/v22.21.1/bin/node /Users/adi/.nvm/versions/node/v22.21.1/bin/npm
+1 info using npm@10.9.4
+2 info using node@v22.21.1
+3 silly config load:file:/Users/adi/.nvm/versions/node/v22.21.1/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/adi/projects/clawdbot/walmart-skill/.npmrc
+5 silly config load:file:/Users/adi/projects/clawdbot/walmart-skill/tmp-home/.npmrc
+6 silly config load:file:/Users/adi/.nvm/versions/node/v22.21.1/etc/npmrc
+7 verbose title npm start
+8 verbose argv "start"
+9 verbose logfile logs-max:10 dir:/Users/adi/projects/clawdbot/walmart-skill/tmp-home/.npm/_logs/2026-01-11T22_45_48_478Z-
+10 verbose logfile /Users/adi/projects/clawdbot/walmart-skill/tmp-home/.npm/_logs/2026-01-11T22_45_48_478Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/npm 278ms
+13 verbose cwd /Users/adi/projects/clawdbot/walmart-skill
+14 verbose os Darwin 23.6.0
+15 verbose node v22.21.1
+16 verbose npm  v10.9.4
+17 notice
+17 notice New [31mmajor[39m version of npm available! [31m10.9.4[39m -> [34m11.7.0[39m
+17 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.7.0[39m
+17 notice To update run: [4mnpm install -g npm@11.7.0[24m
+17 notice  { force: true, [Symbol(proc-log.meta)]: true }
+18 verbose exit 1
+19 verbose code 1

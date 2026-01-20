@@ -1,0 +1,59 @@
+url: https://www.walmart.ca/en/ip/Coca-Cola-Zero-Sugar-Fridge-Pack-Cans-355-mL-12-Pack/10216151?classType=REGULAR&athbdg=L3033&from=/search
+title: Coca-Cola Zero Sugar Fridge Pack Cans, 355 mL, 12 Pack, 12 x 355 mL - Walmart.ca
+
+console:
+[debug] Error
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+[warning] undefined
+
+page errors:
+
+request failures:
+https://pagead2.googlesyndication.com/ccm/collect?frm=0&tid=DC-6835277&en=page_view&dl=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FCoca-Cola-Zero-Sugar-Fridge-Pack-Cans-355-mL-12-Pack%2F10216151&scrsrc=www.googletagmanager.com&rnd=379429836.1768197052&navt=n&npa=0&gtm=45fe6171h1v9177260377za200xec&gcs=G100&gcd=13u3u3l3l5l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391252~115616985~115938465~115938468~116514482&tft=1768197052177&tfd=1642&apve=1&apvf=f net::ERR_ABORTED
+https://ingest.quantummetric.com/horizon/walmartca?T=B&u=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FCoca-Cola-Zero-Sugar-Fridge-Pack-Cans-355-mL-12-Pack%2F10216151%3FclassType%3DREGULAR%26athbdg%3DL3033%26from%3D%2Fsearch&t=1768197052305&v=1768197052844&s=222cfcc7e7b1fa6963585e6f6923fda5&Q=1&Y=1&X=079212e8651643fe18af829de9d853b7&S=0&b=198755&z=1 net::ERR_ABORTED
+https://ingest.quantummetric.com/horizon/walmartca?T=B&u=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FCoca-Cola-Zero-Sugar-Fridge-Pack-Cans-355-mL-12-Pack%2F10216151%3FclassType%3DREGULAR%26athbdg%3DL3033%26from%3D%2Fsearch&t=1768197052305&v=1768197053088&H=bd8b646946028d34cd8cb123&s=222cfcc7e7b1fa6963585e6f6923fda5&P=1&N=1&S=0&b=1048&z=1 net::ERR_ABORTED
+https://ingest.quantummetric.com/horizon/walmartca?T=B&u=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FCoca-Cola-Zero-Sugar-Fridge-Pack-Cans-355-mL-12-Pack%2F10216151%3FclassType%3DREGULAR%26athbdg%3DL3033%26from%3D%2Fsearch&t=1768197052305&v=1768197053087&H=bd8b646946028d34cd8cb123&s=222cfcc7e7b1fa6963585e6f6923fda5&U=b2d29995fc62f5b2358c1c17b9efb92c&N=0&Q=2&S=0&b=1617&z=1 net::ERR_ABORTED
+https://ingest.quantummetric.com/horizon/walmartca?T=B&u=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FCoca-Cola-Zero-Sugar-Fridge-Pack-Cans-355-mL-12-Pack%2F10216151%3FclassType%3DREGULAR%26athbdg%3DL3033%26from%3D%2Fsearch&t=1768197052305&v=1768197056353&H=bd8b646946028d34cd8cb123&s=222cfcc7e7b1fa6963585e6f6923fda5&P=2&N=2&S=1048&b=41391&z=1 net::ERR_ABORTED
+https://ingest.quantummetric.com/horizon/walmartca?T=B&u=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FCoca-Cola-Zero-Sugar-Fridge-Pack-Cans-355-mL-12-Pack%2F10216151%3FclassType%3DREGULAR%26athbdg%3DL3033%26from%3D%2Fsearch&t=1768197052305&v=1768197056354&H=bd8b646946028d34cd8cb123&s=222cfcc7e7b1fa6963585e6f6923fda5&N=1&Q=2&S=1617&b=4938&z=1 net::ERR_ABORTED
+https://ingest.quantummetric.com/horizon/walmartca?T=B&u=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FCoca-Cola-Zero-Sugar-Fridge-Pack-Cans-355-mL-12-Pack%2F10216151%3FclassType%3DREGULAR%26athbdg%3DL3033%26from%3D%2Fsearch&t=1768197052305&v=1768197059856&H=bd8b646946028d34cd8cb123&s=222cfcc7e7b1fa6963585e6f6923fda5&N=2&Q=2&S=6555&b=148&z=1 net::ERR_ABORTED
+https://ingest.quantummetric.com/horizon/walmartca?T=B&u=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FCoca-Cola-Zero-Sugar-Fridge-Pack-Cans-355-mL-12-Pack%2F10216151%3FclassType%3DREGULAR%26athbdg%3DL3033%26from%3D%2Fsearch&t=1768197052305&v=1768197059855&H=bd8b646946028d34cd8cb123&s=222cfcc7e7b1fa6963585e6f6923fda5&P=3&N=3&S=42439&b=8123&z=1 net::ERR_ABORTED

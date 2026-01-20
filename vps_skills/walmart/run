@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /usr/bin/socat STDIO TCP:100.82.193.16:9099

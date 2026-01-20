@@ -1,0 +1,5 @@
+2026/01/11-23:35:24.794 c54215 Reusing MANIFEST /Users/adi/projects/clawdbot/walmart-profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/01/11-23:35:24.797 c54215 Recovering log #19
+2026/01/11-23:35:24.798 c54215 Level-0 table #21: started
+2026/01/11-23:35:24.814 c54215 Level-0 table #21: 122006 bytes OK
+2026/01/11-23:35:24.825 c54215 Delete type=0 #19
