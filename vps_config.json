@@ -5,10 +5,12 @@
         "headless": true,
         "noSandbox": true
     },
-    "whatsapp": {
-        "groups": {
-            "14044291444-1633445819@g.us": {
-                "requireMention": false
+    "channels": {
+        "whatsapp": {
+            "groups": {
+                "14044291444-1633445819@g.us": {
+                    "requireMention": false
+                }
             }
         }
     },
